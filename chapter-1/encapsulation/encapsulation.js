@@ -1,7 +1,8 @@
 const myObject = (function() {
   const name = 'sven';
+  
   return {
-    getName: () => {
+    getName() {
       return name;
     },
   };

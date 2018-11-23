@@ -14,3 +14,9 @@ console.log(clonePlane);
 console.log(clonePlane.blood);
 console.log(clonePlane.attackLevel);
 console.log(clonePlane.defenseLevel);
+
+// Object.create = Object.create || function (obj) {
+//   var F = function () {};
+//   F.prototype = obj;
+//   return new F();
+// };

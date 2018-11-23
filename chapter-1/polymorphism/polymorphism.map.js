@@ -1,12 +1,18 @@
 const googleMap = {
-  show: () => {
+  show() {
     console.log('啟動 Google 地圖');
   },
 };
 
 const LeafletMap = {
-  show: () => {
+  show() {
     console.log('啟動 LeafletMap 地圖');
+  },
+};
+
+const sosotMap = {
+  show() {
+    console.log('啟動 sosotMap 地圖');
   },
 };
 
@@ -18,3 +24,4 @@ const renderMap = (map) => {
 
 renderMap(googleMap);
 renderMap(LeafletMap);
+renderMap(sosotMap);
